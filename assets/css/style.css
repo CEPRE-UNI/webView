@@ -512,6 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
+  
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -689,8 +690,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #D97904;
 }
 .link__inscripcion {
-  background-color: var(--rojo-color);
-  color: var(--white-color);
+  background-color: var(--rojo-color)!important;
+  color: var(--white-color)!important;
   border-radius: .2rem;
 }
 .timeline__event__description a{
@@ -713,7 +714,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom:5px;
   
 }
-
+.mensaje__pruebaselecciom{
+  /* padding: .1rem; */
+  margin: .1rem !important;
+  font-size: .7rem;
+  color:#00aeff !important;
+  /* letter-spacing: 1px; */
+  font-weight: bold;
+  /* font-weight: 700; */
+}
 #hero .btn-watch-video {
   font-size: 16px;
   display: inline-block;
@@ -885,6 +894,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--rojo-color) !important;
   color: var(--white-color)!important;
   /* margin-left: 2rem; */
+}
+.suscribete__pie div a{
+  margin-left: 2rem;
 }
 
 }
@@ -1979,6 +1991,8 @@ section {
     font-size: 1.2rem;
     font-weight: 900;
     color: #37517e;
+    margin: .1rem;
+    
   }
 }
 
